@@ -1,0 +1,683 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.navbar-nav .nav-item{
+	font-size: 18px;
+	padding-left: 20px; 
+	color:  #000080;
+}
+.navbar-nav .nav-item a{
+	color: #000080;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+.carousel-control-prev i, .carousel-control-next i{
+    color: #000080;
+    font-size: 22px
+}
+
+.carousel-inner{
+	height: auto;
+}
+header {
+    position: relative;
+    z-index: 99;
+}
+.carousel {
+    position: relative;
+    z-index: 9;
+}
+.big_save{
+	padding-top: 0px;
+	padding-left: 60px;
+}
+.phone_img{
+	text-align:right;
+}
+.phone_price{
+	padding-top: 0px;
+}
+
+.carousel-control-prev-icon{
+	background-color: #ccc;
+}
+.carousel-control-next-icon{
+	background-color: #ccc;
+}
+.searchBox a, a:hover{
+	text-decoration: none;
+}
+.searchBox{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.searchText {
+    position: absolute;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+    width: 25%;
+    border: 1px solid #d5d5d5;
+    padding: 5px 10px;
+    right: 15px;
+    top: 78px;
+    display: none;
+}
+.searchBtn{
+	/*width: 5px;
+	position: absolute;
+	display: grid;*/
+	color: #000;
+	align-items: center;
+	right: 1rem;
+}
+.searchBox:hover> .searchText{
+	width: 200px;
+	border: 2px solid #000;
+	padding: 2px;
+}
+
+.ac_detail ul i {
+    font-size: 14px;
+    margin: 0px 10px;
+}
+
+.ac_detail ul {
+	font-size: 16px;
+	display: inline-flex;
+	list-style: none;
+	float: right;
+	margin: auto;
+	align-items: center;
+
+}
+.ac_detail ul li a{
+	color:  #000080;
+	padding: 0px 10px;
+}
+.icons i{
+	font-size: 18px;
+	color:  #000080;
+	padding: 24px 25px 0px 0px;
+}
+.save_big{
+	padding-top: 15%;
+	padding-left: 200px;
+}
+.banner_title{
+	font-weight: bold;
+	color: #000080;
+}
+.btn_enroll{
+	font-size: 12px;
+	padding:12px 45px;
+	border: none;
+	background-color:  #CC5500;
+	border-radius: 10px;
+	color: white;
+}
+
+/*-------------------------------------------------------------------------*/
+.sec_second .bg_color {
+    background-color: #E6E8FA;
+    width: 100%;
+    height: auto;
+    padding: 150px 0px 100px;
+    margin-top: -150px;
+}
+.circle_img{
+	text-align: center;
+}
+
+.rounded-circle{
+	width: 200px;
+	height: 200px;
+	border: 8px solid #16901E;
+}
+
+.img_text h4{
+	font-weight: bold;
+	color: #000080;
+	padding-top: 15px;
+	font-size: 20px;
+	text-align: center;
+}
+.img_text p{
+	padding-top: 5px;
+	text-align: center;
+	
+}
+.img_text button{
+	text-align: center;	
+	font-size: 12px;
+	margin-left: 70px;
+	margin-top: 5px;
+	padding: 12px 50px;
+	border: 2px solid #000080;
+	border-radius: 10px;
+	background-color: transparent;
+	color: #000080;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+
+ .back-color{
+	background: #F0F8FF;
+	width: 100%;
+	height: auto;
+}
+.Experience{
+	padding: 0px;
+}
+.Experience h3{
+	color: #000080;
+	font-weight: bold;;
+	
+}
+.Experience p{
+	padding:0px 0px;
+}
+.Experience button{
+	font-size: 12px;
+    padding: 12px 40px;
+    border: 2px solid #000080;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #000080;
+    font-weight: bold;
+    margin-left: 0px;
+}
+.nationwide img{
+	width: 450px;
+	}
+.nationwide {
+    text-align: center;
+}
+/*------------------------------------------------------------------------------*/
+
+.plan_start h2{
+	font-weight: bold;
+	color: #000080;
+}
+.plan_start p{
+	font-size: 12px;
+	
+}
+.btn_find_plan{
+	font-size: 12px;
+	padding:12px 45px;
+	border: none;
+	background-color:  #CC5500;
+	border-radius: 10px;
+	color: white;
+}
+
+.owl-nav{
+	width: 100%;
+    position: relative;
+    bottom: 200px;
+    font-size: 35px;
+
+}
+.owl-next{
+	float: right;
+	position: relative;
+}
+button.owl-prev {
+    position: absolute;
+    left: -15px !important;
+}
+.card_price .item > div{
+	background-color: #E6E8FA;
+	border-radius: 5px;
+	text-align: center;
+	padding-bottom: 20px;
+	width: 100%;	
+	margin:0 auto;
+
+}
+.Recommended_foryou{
+	background-color: #50C878;
+	width: 60%;
+    border-radius: 0px 0 5px 5px;
+    text-align: center;
+    margin: auto;
+} 
+
+ button.owl-next {
+    right: -15px;
+}
+button.owl-prev disabled {
+    left: -15px;
+}
+.price p{
+	padding:10px 0px;
+}
+.price h2{
+	font-size: 35px;
+}
+.discription p{
+	padding: 10px 0px;
+}
+.discription h5{
+	font-size: 38px;
+}
+.discription h5 sup{
+	font-size: 20px;
+}
+.see_details{
+	font-size: 12px;
+	padding:10px 45px;
+	border-radius: 10px;
+	color: #000080;
+	border:2px solid #000080;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.selfy{
+	padding-top: 80px;
+	text-align: right;
+	z-index: -1;
+	position: relative;
+
+}
+.selfy img{
+	
+	overflow: visible;
+	width: auto;
+
+}
+.carryover{
+	margin-top: 100px
+}
+.carry_over h2{
+	font-size: 100px;
+	color: #000080;
+	overflow: visible;
+
+}
+.carry_over{
+	z-index: 9999;
+	
+}
+
+.btn_tell_me{
+	font-size: 12px;
+	padding:12px 45px;
+	border: none;
+	background-color:  #CC5500;
+	border-radius: 10px;
+	color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.signup_align .form-control{
+	border-radius: 0.25rem 0 0 0.25rem;
+	margin-right: 0px !important;
+}
+.signup_align .btn-outline-success{
+	border-radius: 0 0.25rem 0.25rem 0rem;
+}
+.sign_up{
+	background-color: #000080;
+	width: 100%;
+	height: auto;
+    
+}
+.sign_up h4{
+	color: #fff;
+}
+.sign_up p{
+	color: #fff;
+	font-size: 14px;
+}
+.sign_up .small_para{
+	font-size: 12px
+
+}
+.sign_up .Cont_us{
+	color: #fff;
+	font-size: 16px;
+	padding-top: 40px;
+}
+.social_icons a{
+	color: #fff;
+	font-size: 25px;
+	padding-left: 10px;
+}
+
+.shop_details pre{
+	width: 100%;
+	color: #fff;
+}
+.signup_shop pre{
+	color: #fff;
+}
+.current_customer{
+	padding-top: 20px;
+}
+.current_customer pre{
+	padding-top: 20px;
+	color: #fff;
+}
+.blog pre{
+	padding-left: 150px;
+	color: #fff;
+}
+.footer_logo{
+	text-align: center;
+	padding-top: 30px;
+}
+@media (max-width:991px){
+	.navbar-nav .nav-item {
+		font-size: 15px;
+	}
+	.searchText {
+    position: absolute;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+    width: 55%;
+    border: 1px solid #d5d5d5;
+    padding: 5px 10px;
+    right: 15px;
+    top: 56px;
+    display: none;
+}
+	.ac_detail ul{
+		font-size: 13px;
+	}
+	.ac_detail ul i {
+    font-size: 14px;
+    margin: 0px 10px;
+}
+	.carousel-control-prev i{
+		color: #000080;
+		font-size: 22px;
+	}
+	.carousel-control-next i{
+		color: #000080;
+		font-size: 22px;
+	}
+	.carousel-inner{
+		position: relative;
+	}
+	.navbar-collapse {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 68px;
+    background: #fff;
+    z-index: 999;
+}
+}
+@media (max-width: 768px) {
+
+	.img-fluid.logo{
+		width: 80px;
+	}
+	
+   .big_save h1{
+   	font-size: 26px;
+   }
+   .phone_price{
+   	margin: 0px;
+   }
+  .phone_price img{
+    width: auto;
+    }
+  .phone_price p{
+   	font-size: 12px;
+}
+  .phone_price h4{
+   	font-size: 20px;
+    font-weight: bold;
+    color: #000080;
+    
+}
+	
+.big_save p{
+	font-size: 12px;
+}
+	
+.ac_detail ul i{
+    font-size: 14px;
+    margin: 0px 0px;
+
+	}
+.navbar-toggler {
+    text-align: left;
+    width: auto;
+    margin-right: auto;
+}
+.searchText {
+    position: absolute;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+    width: 55%;
+    border: 1px solid #d5d5d5;
+    padding: 5px 10px;
+    right: 15px;
+    top: 73px;
+    display: none;
+}	
+	.img_text h4 {
+    font-weight: bold;
+    color: #000080;
+   
+    font-size: 20px;
+    text-align: center;
+}
+   
+	.img_text button {
+    text-align: center;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 5px;
+    border: 2px solid #000080;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #000080;
+    font-weight: bold;
+}
+.sec_second .bg_color {
+    background-color: #E6E8FA;
+    width: 100%;
+    height: auto;
+  
+}
+.Experience {
+    padding-left: 0px;
+}
+.Experience h3 {
+    color: #000080;
+    font-weight: bold;
+    
+}
+.Experience p {
+    padding: 0px 0px;
+}
+.Experience button {
+    font-size: 12px;
+    padding: 12px 40px;
+    border: 2px solid #000080;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #000080;
+    font-weight: bold;
+    margin-left: 0px;
+}
+.nationwide{
+	text-align: center;
+}
+.nationwide img {
+    width: 450px;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
+.Recommended_foryou {
+    background-color: #50C878;
+     width: 100%;
+     }
+.owl-nav {
+    bottom: 195px;
+}
+.plan_start.p-5{
+	padding-left: 0px !important;
+}
+
+.btn_find_plan {
+    padding: 12px 30px;
+}
+.btn_tell_me {
+    padding: 12px 30px;
+}
+.carry_over h2 {
+    font-size: 70px;
+ }
+
+  .signup_shop{
+  	padding-left:45px;
+  }
+  .current_customer{
+  	padding-left:45px;
+  }
+}
+
+@media (max-width: 767px){
+nav.navbar.navbar-expand-lg {
+    width: 150px;
+}
+.signup_align .form-control{
+	width: 60%;
+}	
+button.navbar-toggler {
+    padding: 0px;
+}
+.sec_second .bg_color{
+    background-color: #E6E8FA;
+    width: 100%;
+    height: auto;
+}
+.sec_second .bg_color {
+    background-color: #E6E8FA;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 20px;
+    margin-top: 0px
+}
+.img_text h4 {
+    font-weight: bold;
+    color: #000080;
+    font-size: 16px;
+    text-align: center;
+    
+}
+.img_text p {
+    text-align: center;
+    font-size: 12px;
+}
+.btn_imgs{
+	 text-align: center;
+}
+.img_text button {
+	margin:0px auto 10px;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 40px;
+    border: 2px solid #000080;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #000080;
+    font-weight: bold;
+}
+.back-color{
+	height: auto;
+}
+.Experience{
+	text-align: center;
+}
+.owl-nav { 
+    bottom: 195px;
+}
+.carousel-control-prev i, .carousel-control-next i{
+	display: none;
+}
+.phone_img{
+	text-align: center;
+}
+.phone_img img.d-block.d-md-none {
+    margin: 0px 10px;
+}
+.phone_price{
+	padding-top:0px;
+}
+.big_save{
+	padding: 20px;
+}
+.owl-dots{
+	display: none;
+}
+
+.carry_over h2 {
+    font-size: 50px;
+ }
+form.form-inline {
+    justify-content: center;
+}
+.sign_up{
+	height: auto;
+}
+.signup_shop{
+  	padding-left:25px;
+  }
+ .social_icons a{
+	padding-left: 0px;
+}
+.current_customer{
+	padding-left: 25px;
+}
+	.signup_align {
+    text-align: center;
+}
+.signup_shop {
+    text-align: center;
+}
+.current_customer {
+	text-align: center;
+}
+.selfy {
+    padding-top: 10px;
+    text-align: right;
+    z-index: -1;
+    position: relative;
+}
+.searchText {
+    width: 90%;
+   }
+}
+@media(max-width:375px){
+.ac_detail ul li a {
+    padding: 0px 7px;
+}
+}
